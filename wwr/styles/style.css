@@ -1,13 +1,14 @@
+/* Adding a container for our entire page, width set, centering with margin */
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+/* More Centering with text align*/
 nav {
     text-align: center;
 }
 
-#hero-box h1, #hero_box h4 {
+#hero h1, #hero h4 {
     text-align: center;
 }
 
@@ -22,25 +23,32 @@ main section {
 #background {
     height: 725px;
 }
-
+/*background colors with color*/
 body {
     background-color: #f8f9fb;
 }
 
 header {
-    background-color:#f8f9fb;
+    background-color:#d2e2f3;
 }
 
 nav a:hover {
-    background-color:grey;
+    background-color:rgb(223, 219, 219);
+}
+
+nav a {
+    color: rgb(6, 6, 99);
+    text-decoration: none;
 }
 
 .book, .join {
     background-color:#e1ecf7;
+    color: rgb(8, 8, 100);
+    text-decoration: none;
 }
 
 .book:hover, .join:hover {
-    background-color: grey;
+    background-color: rgb(194, 191, 191);
 }
 
 #background {
@@ -48,9 +56,38 @@ nav a:hover {
 }
 
 .msg {
-    background-color:#e1ecf7;
+    background-color:#d2e2f3;
 }
 
-footer{
-    background-color:#e1ecf7;
+footer {
+    background-color:#d2e2f3;
+}
+
+footer a {
+    color: rgb(12, 12, 102);
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color:rgb(194, 191, 191) ;
+}
+/*add width to the logo and icon*/
+#hero-img {
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.icon {
+    width: 75px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
