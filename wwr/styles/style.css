@@ -1,66 +1,77 @@
+/*Import font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Dancing+Script&display=swap');
+
 /* Adding a container for our entire page, width set, centering with margin */
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+
+/*All element selectors*/
+
+body {
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant', Times, serif;
 }
-/* More Centering with text align*/
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#d2e2f3;
+}
+
 nav {
     text-align: center;
 }
 
-#hero h1, #hero h4 {
+nav a {
+    color: rgb(6, 6, 99);
+    line-height: 1em;
+    padding: .5em .75em;
+    text-decoration: none;
     text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
-/*background colors with color*/
-body {
-    background-color: #f8f9fb;
-}
-
-header {
-    background-color:#d2e2f3;
+    font-size: 1em;
+    font-family: "Time Romance", Times, serif;
 }
 
 nav a:hover {
     background-color:rgb(223, 219, 219);
 }
 
-nav a {
-    color: rgb(6, 6, 99);
-    text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(4, 4, 49);
+    font-size: 1.5em;
+    line-height: 1.1em;
+    font-family: 'Cormorant', Times, serif;
 }
 
-.book, .join {
-    background-color:#e1ecf7;
-    color: rgb(8, 8, 100);
-    text-decoration: none;
+p {
+    padding: 10px;
+    color: rgb(4, 4, 49);
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.book:hover, .join:hover {
-    background-color: rgb(194, 191, 191);
+main, section {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px 0 30px 0;
 }
 
-#background {
-    background-color: #dcedfd;
-}
-
-.msg {
-    background-color:#d2e2f3;
+img {
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 footer {
     background-color:#d2e2f3;
+    padding: 25px 50px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
 }
 
 footer a {
@@ -71,18 +82,6 @@ footer a {
 footer a:hover {
     background-color:rgb(194, 191, 191) ;
 }
-/*add width to the logo and icon*/
-#hero-img {
-    width: 100%;
-}
-
-.logo {
-    width: 120px;
-}
-
-.icon {
-    width: 75px;
-}
 
 footer p {
     font-size: 1.2em;
@@ -90,4 +89,93 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+/*All ids selectors*/
+
+#hero h1, #hero h4 {
+    text-align: center;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #e5ebf8;
+}
+
+#background {
+    height: 725px;
+    background-color: #dcedfd;
+}
+
+#info {
+    font-size: .70em;
+    color: rgb(8, 8, 66);
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    text-align: center;
+}
+
+/*All classes selectors*/
+
+.book, .join {
+    background-color:#c2dbf3;
+    color: rgb(8, 8, 100);
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book:hover, .join:hover {
+    background-color: rgb(194, 191, 191);
+}
+
+.card-img{
+    width: 30%;
+    height: 300px;
+    border: 5px color solid rgb(47, 47, 165);
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    position: relative;
+}
+
+.mountains{
+    width: 100%;
+}
+
+
+.icon {
+    width: 80px;
+    margin-top: 25px;
+}
+
+.msg {
+    background-color:#a5c5e7;
+}
+
+.msg h2 {
+    color: rgb(4, 4, 39);
+    font-size: 1.25em;
+}
+
+.mdg p {
+    font-size: .75em;
+    color: rgb(4, 4, 39);
 }
