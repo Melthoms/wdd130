@@ -10,7 +10,8 @@ body {
     background-color: #f2f4f7;
     margin: 0;
     padding: 0;
-    font-family: 'Cormorant', Times, serif;
+    font-family: "Time Romance", Times, serif;
+    font-size: 22px;
 }
 
 header {
@@ -26,7 +27,7 @@ nav {
 nav a {
     color: rgb(6, 6, 99);
     line-height: 1em;
-    padding: .5em .75em;
+    padding: 35px;
     text-decoration: none;
     text-align: center;
     font-size: 1em;
@@ -42,8 +43,16 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: rgb(4, 4, 49);
     font-size: 1.5em;
-    line-height: 1.1em;
+    line-height: 1.5em;
+}
+
+h2{
+    margin: 0;
     font-family: 'Cormorant', Times, serif;
+}
+
+h4 {
+    font-size: 1.2em;
 }
 
 p {
@@ -58,6 +67,10 @@ main, section {
     text-align: center;
     box-sizing: border-box;
     margin: 30px 0 30px 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 img {
@@ -77,6 +90,7 @@ footer {
 footer a {
     color: rgb(12, 12, 102);
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer a:hover {
@@ -89,6 +103,10 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 /*All ids selectors*/
@@ -129,11 +147,21 @@ footer p a:hover {
 
 /*All classes selectors*/
 
+.home-title{
+    font-size: 2.5em;
+    font-family: 'Cormorant', Times, serif;
+    margin-top: 10px;
+}
+
 .book, .join {
     background-color:#c2dbf3;
     color: rgb(8, 8, 100);
     text-decoration: none;
     font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .button-box {
@@ -147,7 +175,7 @@ footer p a:hover {
 .card-img{
     width: 30%;
     height: 300px;
-    border: 5px solid rgb(206, 206, 230);
+    border: 10px solid rgb(206, 206, 230);
 }
 
 .logo {
@@ -164,10 +192,13 @@ footer p a:hover {
 .icon {
     width: 80px;
     margin-top: 25px;
+    padding-top: 10px;
 }
 
 .msg {
     background-color:#a5c5e7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -176,6 +207,11 @@ footer p a:hover {
 }
 
 .mdg p {
-    font-size: .75em;
+    font-size: .8em;
     color: rgb(4, 4, 39);
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
